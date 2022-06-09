@@ -44,6 +44,6 @@ mongoose.connect(mongoURI)
     console.log(err)
 })
 
-app.listen(process.env.PORT,() => {
+app.listen(process.env.PORT || 80,() => {
     console.log("Successfully Running on the PORT: 5000")
 })
