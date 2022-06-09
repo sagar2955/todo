@@ -38,7 +38,7 @@ const mongoURI = "mongodb+srv://sagargunjal2955:sagar@cluster0.7a5skea.mongodb.n
 
 mongoose.connect(mongoURI)
 .then(() => {
-    console.log("Successfully Connected to the Database")
+    console.log("Successfully Connected to the Databases")
 })
 .catch((err) => {
     console.log(err)
