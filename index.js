@@ -27,7 +27,7 @@ app.use('/user',userRoute)
 app.use('/todo',userValidation, todoRoute)
 
 
-app.get('/', (req,res) => {
+app.get('/home', (req,res) => {
     res.json({
         "APP": "JWT Based API Application",
         "message": "Successfully Running the Application"
